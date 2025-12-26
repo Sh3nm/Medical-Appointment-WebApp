@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    style
+      body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+      .container { max-width: 600px; margin: 20px auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px; }
+      h2 { color: #007bff; }
+      .detail { margin-bottom: 10px; padding: 10px; background-color: #f8f9fa; border-radius: 4px; }
+  body
+    .container
+      h2 Konfirmasi Janji Temu
+      p Halo, **#{patientName}**,
+      
+      p Janji temu Anda telah berhasil dikonfirmasi. Berikut adalah detailnya:
+      
+      .detail
+        strong Dokter:</strong> Dr. #{doctorName}
+        br
+        strong Spesialisasi:</strong> #{specialization}
+        br
+        strong Waktu:</strong> #{date}
+        br
+        em ID Janji Temu: #{appointmentId}
+      
+      p Mohon datang tepat waktu. Jika ada perubahan, hubungi kami segera.
+      
+      p Terima kasih,
+      p Tim Medical App

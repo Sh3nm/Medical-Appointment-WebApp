@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1765380264025" clover="3.2.0">
+  <project timestamp="1765380264025" name="All files">
+    <metrics statements="471" coveredstatements="394" conditionals="293" coveredconditionals="185" methods="73" coveredmethods="67" elements="837" coveredelements="646" complexity="0" loc="471" ncloc="471" packages="14" files="33" classes="33"/>
+    <package name="src">
+      <metrics statements="19" coveredstatements="17" conditionals="4" coveredconditionals="3" methods="6" coveredmethods="4"/>
+      <file name="app.controller.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/app.controller.ts">
+        <metrics statements="6" coveredstatements="5" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+      <file name="app.service.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/app.service.ts">
+        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+      <file name="prisma.service.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/prisma.service.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="29" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.appointments">
+      <metrics statements="70" coveredstatements="56" conditionals="68" coveredconditionals="42" methods="12" coveredmethods="12"/>
+      <file name="appointments.controller.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/appointments/appointments.controller.ts">
+        <metrics statements="24" coveredstatements="23" conditionals="34" coveredconditionals="20" methods="6" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="22" count="1" type="cond" truecount="5" falsecount="3"/>
+        <line num="23" count="11" type="stmt"/>
+        <line num="32" count="1" type="cond" truecount="2" falsecount="2"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="41" count="1" type="cond" truecount="2" falsecount="2"/>
+        <line num="43" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="60" count="7" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+      </file>
+      <file name="appointments.service.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/appointments/appointments.service.ts">
+        <metrics statements="46" coveredstatements="33" conditionals="34" coveredconditionals="22" methods="6" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="cond" truecount="6" falsecount="2"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="17" count="11" type="stmt"/>
+        <line num="20" count="11" type="stmt"/>
+        <line num="23" count="11" type="stmt"/>
+        <line num="28" count="11" type="cond" truecount="1" falsecount="1"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="38" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="43" count="9" type="stmt"/>
+        <line num="52" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="59" count="8" type="stmt"/>
+        <line num="73" count="8" type="stmt"/>
+        <line num="80" count="8" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="94" count="1" type="stmt"/>
+        <line num="108" count="7" type="cond" truecount="2" falsecount="2"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="112" count="7" type="stmt"/>
+        <line num="116" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="120" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="121" count="2" type="stmt"/>
+        <line num="124" count="5" type="stmt"/>
+        <line num="135" count="1" type="stmt"/>
+        <line num="139" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="144" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="145" count="0" type="stmt"/>
+        <line num="149" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="150" count="1" type="stmt"/>
+        <line num="154" count="0" type="stmt"/>
+        <line num="155" count="0" type="stmt"/>
+        <line num="156" count="0" type="stmt"/>
+        <line num="157" count="0" type="stmt"/>
+        <line num="159" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="160" count="0" type="stmt"/>
+        <line num="165" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.appointments.dto">
+      <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="3" methods="0" coveredmethods="0"/>
+      <file name="create-appointment.dto.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/appointments/dto/create-appointment.dto.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="update-status.dto.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/appointments/dto/update-status.dto.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="3" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="cond" truecount="3" falsecount="1"/>
+      </file>
+    </package>
+    <package name="src.auth">
+      <metrics statements="116" coveredstatements="100" conditionals="65" coveredconditionals="47" methods="17" coveredmethods="15"/>
+      <file name="auth.controller.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/auth/auth.controller.ts">
+        <metrics statements="30" coveredstatements="27" conditionals="20" coveredconditionals="15" methods="6" coveredmethods="5"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="17" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="26" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="35" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="44" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+      </file>
+      <file name="auth.service.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/auth/auth.service.ts">
+        <metrics statements="62" coveredstatements="50" conditionals="33" coveredconditionals="22" methods="9" coveredmethods="8"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="cond" truecount="6" falsecount="2"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="21" count="12" type="stmt"/>
+        <line num="24" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="9" type="stmt"/>
+        <line num="29" count="12" type="stmt"/>
+        <line num="33" count="8" type="stmt"/>
+        <line num="37" count="8" type="stmt"/>
+        <line num="41" count="8" type="stmt"/>
+        <line num="45" count="8" type="stmt"/>
+        <line num="49" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="51" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="52" count="5" type="stmt"/>
+        <line num="56" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="57" count="3" type="stmt"/>
+        <line num="66" count="5" type="stmt"/>
+        <line num="68" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="72" count="4" type="stmt"/>
+        <line num="74" count="4" type="stmt"/>
+        <line num="78" count="4" type="stmt"/>
+        <line num="79" count="4" type="stmt"/>
+        <line num="81" count="4" type="stmt"/>
+        <line num="83" count="4" type="stmt"/>
+        <line num="88" count="3" type="stmt"/>
+        <line num="90" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="91" count="1" type="stmt"/>
+        <line num="94" count="2" type="stmt"/>
+        <line num="96" count="2" type="stmt"/>
+        <line num="100" count="2" type="stmt"/>
+        <line num="101" count="2" type="stmt"/>
+        <line num="103" count="2" type="stmt"/>
+        <line num="105" count="2" type="stmt"/>
+        <line num="109" count="4" type="stmt"/>
+        <line num="112" count="4" type="stmt"/>
+        <line num="114" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="115" count="2" type="stmt"/>
+        <line num="118" count="2" type="stmt"/>
+        <line num="119" count="2" type="stmt"/>
+        <line num="121" count="2" type="stmt"/>
+        <line num="123" count="2" type="stmt"/>
+        <line num="131" count="2" type="stmt"/>
+        <line num="133" count="2" type="stmt"/>
+        <line num="134" count="2" type="stmt"/>
+        <line num="142" count="0" type="stmt"/>
+        <line num="144" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="145" count="0" type="stmt"/>
+        <line num="149" count="0" type="stmt"/>
+        <line num="154" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="155" count="0" type="stmt"/>
+        <line num="159" count="0" type="stmt"/>
+        <line num="161" count="0" type="stmt"/>
+        <line num="163" count="0" type="stmt"/>
+        <line num="165" count="0" type="stmt"/>
+        <line num="170" count="2" type="stmt"/>
+        <line num="175" count="0" type="stmt"/>
+        <line num="177" count="0" type="stmt"/>
+      </file>
+      <file name="jwt-auth.guard.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/auth/jwt-auth.guard.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="jwt.strategy.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/auth/jwt.strategy.ts">
+        <metrics statements="21" coveredstatements="20" conditionals="12" coveredconditionals="10" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="20" count="55" type="stmt"/>
+        <line num="21" count="55" type="stmt"/>
+        <line num="23" count="55" type="cond" truecount="1" falsecount="1"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="28" count="55" type="stmt"/>
+        <line num="30" count="55" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="18" type="stmt"/>
+        <line num="39" count="37" type="stmt"/>
+        <line num="48" count="55" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="52" count="54" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.auth.dto">
+      <metrics statements="24" coveredstatements="24" conditionals="4" coveredconditionals="3" methods="0" coveredmethods="0"/>
+      <file name="jwt-payload.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/auth/dto/jwt-payload.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="3" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="1" type="cond" truecount="3" falsecount="1"/>
+      </file>
+      <file name="login.dto.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/auth/dto/login.dto.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+      <file name="refresh-token.dto.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/auth/dto/refresh-token.dto.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="register-doctor.dto.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/auth/dto/register-doctor.dto.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="register-user.dto.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/auth/dto/register-user.dto.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.common">
+      <metrics statements="40" coveredstatements="30" conditionals="18" coveredconditionals="8" methods="7" coveredmethods="7"/>
+      <file name="get-users.decorator.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/common/get-users.decorator.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="41" type="stmt"/>
+        <line num="14" count="41" type="stmt"/>
+        <line num="16" count="41" type="stmt"/>
+      </file>
+      <file name="prisma-error.handler.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/common/prisma-error.handler.ts">
+        <metrics statements="13" coveredstatements="5" conditionals="8" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+      </file>
+      <file name="roles.decorator.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/common/roles.decorator.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+      </file>
+      <file name="roles.guard.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/common/roles.guard.ts">
+        <metrics statements="12" coveredstatements="10" conditionals="10" coveredconditionals="7" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="12" count="28" type="stmt"/>
+        <line num="18" count="28" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="28" type="stmt"/>
+        <line num="25" count="28" type="cond" truecount="3" falsecount="1"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="31" count="29" type="stmt"/>
+      </file>
+      <file name="test-db-helper.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/common/test-db-helper.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.config">
+      <metrics statements="13" coveredstatements="12" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="mail.config.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/config/mail.config.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="multer.config.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/config/multer.config.ts">
+        <metrics statements="11" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="23" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.doctors">
+      <metrics statements="25" coveredstatements="25" conditionals="14" coveredconditionals="11" methods="8" coveredmethods="8"/>
+      <file name="doctors.controller.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/doctors/doctors.controller.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="8" coveredconditionals="6" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+      </file>
+      <file name="doctors.service.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/doctors/doctors.service.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="5" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="36" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.doctors.dto">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="update-doctor.dto.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/doctors/dto/update-doctor.dto.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.mail">
+      <metrics statements="10" coveredstatements="9" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="mail.service.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/mail/mail.service.ts">
+        <metrics statements="10" coveredstatements="9" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="23" count="8" type="stmt"/>
+        <line num="35" count="8" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.records">
+      <metrics statements="70" coveredstatements="54" conditionals="66" coveredconditionals="37" methods="10" coveredmethods="8"/>
+      <file name="records.controller.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/records/records.controller.ts">
+        <metrics statements="23" coveredstatements="22" conditionals="31" coveredconditionals="18" methods="5" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="28" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="41" count="5" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+      </file>
+      <file name="records.service.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/records/records.service.ts">
+        <metrics statements="47" coveredstatements="32" conditionals="35" coveredconditionals="19" methods="5" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="29" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="34" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="53" count="5" type="stmt"/>
+        <line num="57" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="61" count="4" type="stmt"/>
+        <line num="63" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="67" count="2" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="78" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="83" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="88" count="1" type="cond" truecount="2" falsecount="2"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="96" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="100" count="1" type="stmt"/>
+        <line num="101" count="1" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="114" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="115" count="0" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="120" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="121" count="0" type="stmt"/>
+        <line num="123" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="128" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.records.dto">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="create-medical-record.dto.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/records/dto/create-medical-record.dto.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.users">
+      <metrics statements="63" coveredstatements="46" conditionals="44" coveredconditionals="27" methods="9" coveredmethods="9"/>
+      <file name="users.controller.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/users/users.controller.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="8" coveredconditionals="6" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+      </file>
+      <file name="users.service.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/users/users.service.ts">
+        <metrics statements="50" coveredstatements="33" conditionals="36" coveredconditionals="21" methods="5" coveredmethods="5"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="10" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="12" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="22" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="37" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="42" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="47" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="48" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="64" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="69" count="1" type="cond" truecount="2" falsecount="2"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="75" count="1" type="stmt"/>
+        <line num="76" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="90" count="4" type="stmt"/>
+        <line num="92" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="97" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="98" count="2" type="stmt"/>
+        <line num="101" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="102" count="2" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="109" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.users.dto">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="update-user.dto.ts" path="/Volumes/Mac HD Data/INFORMATIKA/SEMESTER 5/PBKK/x02-final-project-Sh3nm/backend/src/users/dto/update-user.dto.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

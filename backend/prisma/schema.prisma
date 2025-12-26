@@ -1,0 +1,85 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Role {
+  PATIENT
+  DOCTOR
+  ADMIN
+}
+
+enum AppointmentStatus {
+  PENDING
+  CANCELLED
+  FINISHED
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String   @unique
+  password  String
+  refreshToken String?
+  role      Role     @default(PATIENT)
+  createdAt DateTime @default(now())
+
+  appointments Appointment[]
+  records      MedicalRecord[] 
+}
+
+model Doctor {
+  id            Int      @id @default(autoincrement())
+  name          String
+  email         String   @unique
+  password      String
+  refreshToken  String?
+  specialization String
+  role          Role     @default(DOCTOR)
+  createdAt     DateTime @default(now())
+
+  appointments Appointment[]
+}
+
+model Appointment {
+  id        Int               @id @default(autoincrement())
+  date      DateTime
+  status    AppointmentStatus @default(PENDING)
+
+  userId    Int
+  doctorId  Int
+
+  user      User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  doctor    Doctor @relation(fields: [doctorId], references: [id], onDelete: Cascade)
+  record    MedicalRecord?
+}
+
+model MedicalRecord {
+  id            Int      @id @default(autoincrement())
+  
+  // Konten File & Note
+  fileName      String
+  filePath      String 
+  mimeType      String
+  noteContent   String? 
+  
+  // Timestamps
+  uploadedAt    DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  
+  // Relasi ke User & Appointment
+  userId        Int
+  user          User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  appointmentId Int     @unique 
+  appointment   Appointment @relation(fields: [appointmentId], references: [id], onDelete: Cascade)
+}
